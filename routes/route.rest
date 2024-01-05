@@ -1,0 +1,19 @@
+GET http://localhost:3000/users/
+
+###
+
+GET http://localhost:3000/users/658cca4a664b3ec4d9339110
+
+### 
+
+POST http://localhost:3000/users/
+Content-Type: application/json
+
+{
+    "username": "mongoooosee123",
+    "password": "password123"
+}
+
+###
+
+DELETE  http://localhost:3000/users/65973afbbd274f65afd11525
